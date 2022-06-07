@@ -32,10 +32,9 @@ class KalmanFilter:
         self.vk = np.random.uniform(-0.001,0.001)# process noise varaince 
         self.wk = np.random.uniform(-0.002,0.002) #measurement noise varaince 
     #     noise = (1/np.sqrt(2*np.pi*np.square(self.vk)))*np.exp((0.1**2/2*self.vk**2))
-        self.X_priori = np.ones(2) # Priori estimate Xk/k-1 state [SOC,Vdf] nx1
-        self.X_update = np.ones(2) # Priori estimate Xk/k-1 state [SOC,Vdf] nx1
+        self.X_priori = np.ones((2,1)) # Priori estimate Xk/k-1 state [SOC,Vdf] nx1
+        self.X_update = np.ones((2,1)) # Priori estimate Xk/k-1 state [SOC,Vdf] nx1
     #     self.P_priori = np.identity(len(self.X_priori)) *0.001 # Priori estimate Pk/k-1 covaraince of the priori state estimate nxn 
-        
         self.P_priori=np.ones([2,2]) 
         self.P_update=np.ones([2,2]) 
         self.Fx   =None # state Transitin matrix (SOC,Vdf) nxn matrix 
@@ -55,8 +54,14 @@ class KalmanFilter:
         self.BattRi  = BattRi()
         
         self.parameterUpdate()
-        self.X_update = np.asarray([self.SOC,self.Vdf],dtype=np.float64)
-
+        self.X_update[1] = self.SOC 
+        self.X_update[0] = self.Vdf 
+        
+        # print(f'shape of the x_updatre {self.Kalman_intercept}')
+        self.Cd=np.array([[self.KGain,1]],dtype=object)
+        self.Columb_SOC=[]
+        self.Kalan_Predicted_SOC=[]
+        
     def parameterUpdate(self):
         
         
@@ -75,56 +80,60 @@ class KalmanFilter:
 
   
     def prioriStateEstiate_prediction(self):
-        delta = (self.del_t/(self.Cdf*self.Rdf))
-        Fx = np.array([[1,0],[0,delta]])
-        Fu = np.asarray([(self.del_t/self.Cnom),(self.del_t/self.Cdf)])
-        Fu = Fu.reshape(len(Fu),1)
-        print(Fu.shape)
+        delta = 1-(self.del_t/(self.Cdf*self.Rdf))
+        Fx = np.asarray([[1.0,0.0],[0.0,delta[0]]],dtype=object)
+        Fu = np.asarray([[-self.del_t/self.Cnom],[self.del_t/self.Cdf]],dtype=object)
+  
         
         
         
-        self.X_priori = Fx * self.X_update + Fu*self.Current
+        self.X_priori = np.dot(Fx,self.X_update) + np.dot(Fu,self.Current)
         
-        self.SOC_pred = np.array([self.KGain,1]) * self.X_update .T + self.Ri*self.Current
+        self.SOC_pred = np.dot(self.Cd,self.X_update) + self.Ri*self.Current
+    
         
-        print(f'SOC kalan prediction {self.SOC_pred}')
-        
-        self.P_priori = Fx * self.P_update * Fx.T + self.R
-        
-        
+        self.P_priori = np.dot(Fx ,np.dot( self.P_update ,Fx.T)) + self.R
+        self.Kalan_Predicted_SOC.append(self.SOC_pred)
     
     def prioriUpdatePrediction(self):
-        Cd = np.array([self.KGain,1])
-        Cd = Cd.reshape(len(Cd),1)
-        print( Cd.shape)
-        a=self.P_priori * Cd
-        b=Cd.T * a
-        print(b)
-        mk = np.linalg.inv( b  )
+
         
-        self.KGain = self.P_priori * Cd.T * mk
+        a=np.dot(self.P_priori,self.Cd.T)
+   
+        b=np.dot(self.Cd,a)
         
+   
+        # mk = np.linalg.inv( b,signature=signature, extobj=extobj)
+
+        mk=1/b # if it is the square matrix inv using the np.linlag.inv
+        
+        self.KGain = np.dot(np.dot(self.P_priori,self.Cd.T),mk)
+        print(self.P_priori)
         zk = self.SOC - self.SOC_pred
         self.X_update = self.X_priori + self.KGain * zk
         
-        self.P_update = (np.eye(len(self.X_priori)) - self.KGain * Cd) * self.P_priori
+        self.P_update = np.dot((np.eye(len(self.X_priori)) - np.dot(self.KGain,self.Cd)),self.P_priori)
         
         self.Current =  self.currentGenerate()
         self.columbCount()
         
-        print(f'Kalan Gain uodate {self.KGain}')
         
     def columbCount(self):
         
-        self.SOC = self.SOC0 + self.del_t*self.Current/(self.Cnom)
-        print(f'Columb count SOC {self.SOC}')
+        self.SOC = self.SOC0 + (self.del_t*self.Current)/(self.Cnom)
+        self.Columb_SOC.append(self.SOC)
         self.parameterUpdate()
     
 if __name__ == "__main__":
     KF= KalmanFilter()
     
-    for i in range (1,2):
+    for i in range (1,1):
         
         KF.prioriStateEstiate_prediction()
         KF.prioriUpdatePrediction()
         time.sleep(0.1)
+    # print(f'Coulub counter SOC prediction {KF.Columb_SOC}')
+    # print(f'Kalan SOC prediction {KF.Kalan_Predicted_SOC}')
+    
+    # plt.plot(KF.Columb_SOC)
+    # plt.show()

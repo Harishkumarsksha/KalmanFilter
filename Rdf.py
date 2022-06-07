@@ -48,11 +48,11 @@ class BattRdf:
         self.interceptK=self.model.intercept_
         self.Rdf_coef=self.model.coef_
 
-        print(f'Model intercept : {self.interceptK} and  model Coeffient : {self.Rdf_coef}')
+        # print(f'Model intercept : {self.interceptK} and  model Coeffient : {self.Rdf_coef}')
     
     def modelPredict(self):
         self.Rdf_pred = self.model.predict(self.SOC_test)
-        print(f'model predicted output for {self.SOC_test[10]} : {self.model.predict(self.SOC_test[10].reshape(1,1))}')
+        # print(f'model predicted output for {self.SOC_test[10]} : {self.model.predict(self.SOC_test[10].reshape(1,1))}')
 
     def RdfFunc(self,SOC):
         return self.Rdf_coef * 99.09 + self.interceptK

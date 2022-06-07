@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Mon Jun 06 22:20:18 2022
+# Make data base, printed on Tue Jun 07 10:09:01 2022
 
 # Variables
 
@@ -16,6 +16,8 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
+# environment
+OMP_WAIT_POLICY = PASSIVE
 # environment
 VIRTUAL_ENV_PROMPT = (env) 
 # environment
@@ -33,78 +35,88 @@ PLATFORMIO_IDE = 2.4.3
 # environment
 HOMEDRIVE = C:
 # automatic
-@F = $(notdir $@)
+@F = $(n 
+otdir $@)
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
 SIGRITY_EDA_DIR = C:\Cadence\SPB_17.4
 # default
-SHELL := C:/Program Files (x86)/Coreutils/bin//sh.exe
+SHELL := sh.exe
 # environment
-WINDIR = C:\Windows
+WINDIR = C:\WINDOWS
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-ONEDRIVE = C:\Users\harish\OneDrive
+ONEDRIVE = C:\Users\Smplab\OneDrive
+# environment
+PUBLIC = C:\Users\Public
 # environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
-# makefile
+# environment
+MCC_INCLUDE = C:\Program Files (x86)\Microchip\xc8\v1.41/h
+# 
+ makefile
 MAKEFILE_LIST := 
 # environment
-TMP = C:\Users\harish\AppData\Local\Temp
+TMP = C:\Users\Smplab\AppData\Local\Temp
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-PROGRAMDATA = C:\ProgramData
+CDS_LISTENER_MODE = LOCAL
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-afda7c11-2166-4baa-ac16-88706c29e293-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-c11a2a36-d35d-485a-87ba-67c14a4b200b-sock
 # environment
-VSCODE_CWD = C:\Users\harish\OneDrive\Documents\PlatformIO\Projects\arduino_nuc_ina238\KalmanFilter
+VSCODE_CWD = C:\Users\Smplab\Documents\programing\stm32\stm32H7xx\nuc_sensor\kalanfilter\lookupdatable\KalmanFilter
 # environment
 CDS_LIC_ONLY = 1
 # environment
 NO_PROXY = 127.0.0.1
+# 
+ environment
+NIDAQMXSWITCHDIR = C:\Program Files (x86)\National Instruments\NI-DAQ\Switch\
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
-# environment
-ZES_ENABLE_SYSMAN = 1
 # makefile
-CURDIR := c:/Use 
-make.exe: *** No rule to make target `all'.  Stop.
-
-rs/harish/OneDrive/Documents/PlatformIO/Projects/arduino_nuc_ina238/KalmanFilter
+CURDIR := c:/Users/Smplab/Documents/programing/stm32/stm32H7xx/nuc_sensor/kalanfilter/lookupdatable/KalmanFilter
 # environment
 NIEXTCCOMPILERSUPP = C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\
 # environment
 VIRTUAL_ENV = C:\Users\harish\OneDrive\Documents\PlatformIO\Projects\arduino_nuc_ina238\KalmanFilter\env
+ 
 # environment
 PROCESSOR_ARCHITECTURE = x86
 # environment
 VXIPNPPATH64 = C:\Program Files\IVI Foundation\VISA\
 # environment
+VSCODE_IPC_HOOK = \\.\pipe\2065ef88b6f1840df348441e73ec7b4f-1.67.2-main-sock
+# environment
 _OLD_VIRTUAL_PROMPT = $P$G
 # environment
-USERPROFILE = C:\Users\harish
+USERPROFILE = C:\Users\Smplab
 # environment
 ALLUSERSPROFILE = C:\ProgramData
+# environment
+MING = C:\Program Files (x86)\GnuWin32\bin
 # environment
 VSCODE_LOG_STACK = false
 # environment
 NUMBER_OF_PROCESSORS = 4
 # environment
 ELECTRON_RUN_AS_NODE = 1
-# default
+# def 
+ault
 .FEATURES := target-specific order-only second-expansion else-if archives
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9316_ICIOOAXZTVUHLJFW
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_38872_UTAASOGGLZCFIILE
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-COMPUTERNAME = DESKTOP-AU97FCS
+COMPUTERNAME = SMP-LAYOUT-01
 # environment
 PROGRAMFILES = C:\Program Files (x86)
 # environment
@@ -112,9 +124,10 @@ DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-USERNAME = harish
+USERNAME = Smplab
 # environment
-PUBLIC = C:\Users\Public
+KMP_DUPLICATE_LIB 
+_OK = TRUE
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -122,31 +135,31 @@ HOME = C:\SPB_Data
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\harish\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+VSCODE_CODE_CACHE_PATH = C:\Users\Smplab\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
-LOGONSERVER = \\DESKTOP-AU97FCS
+LOGONSERVER = \\SMP-LAYOUT-01
 # environment
-CDS_LIC_FILE = 5280@DESKTOP-AU97FCS;5280@localhost
-# environment
-ONEDRIVECONSUMER = C:\Users\harish\OneDrive
-# environment
+CDS_LIC_FILE = 5280@192.168.100.231
+# 
+ environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
-USERDOMAIN = DESKTOP-AU97FCS
+USERDOMAIN = SMP-LAYOUT-01
 # environment
-PLATFORMIO_PATH = C:\Users\harish\.platformio\python3;C:\Users\harish\OneDrive\Documents\PlatformIO\Projects\arduino_nuc_ina238\KalmanFilter\env\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\MinGW\bin;C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files (x86)\Coreutils\bin\;C:\Program Files (x86)\nodejs\;C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\harish\AppData\Local\Programs\Python\Python310\;C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\bin;C:\Users\harish\AppData\Local\Microsoft\WindowsApps;C:\Users\harish\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\harish\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Coreutils\bin\;C:\Users\harish\AppData\Roaming\npm;C:\Users\harish\OneDrive\Documents\PlatformIO\Projects\arduino_nuc_ina238\KalmanFilter\env\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\MinGW\bin;C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files (x86)\Coreutils\bin\;C:\Program Files (x86)\nodejs\;C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\harish\AppData\Local\Programs\Python\Python310\;C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\bin;C:\Users\harish\AppData\Local\Microsoft\WindowsApps;C:\Users\harish\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\harish\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Coreutils\bin\;C:\Users\harish\AppData\Roaming\npm
+PLATFORMIO_PATH = C:\Users\Smplab\.platformio\python3;C:\Users\harish\OneDrive\Documents\PlatformIO\Projects\arduino_nuc_ina238\KalmanFilter\env\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Keysight\IO Libraries Suite\bin;C:\Program Files\IVI Foundation\VISA\Win64\ktvisa;C:\Program Files (x86)\Keysight\IO Libraries Suite\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\ktvisa;C:\Program Files (x86)\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files (x86)\IVI Foundation\VISA\winnt\agvisa;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\Microchip\xc8\v1.41\bin;C:\Program Files\Microchip\xc8\v2.36\bin;X:\BMS\Thesis\programing\firmware\gcc-arm-none-eabi-10.3-2021.10\bin;X:\BMS\Thesis\programing\firmware\make-3.81-bin\bin;C:\Users\Smplab\Downloads\stm32flash-0.7-binaries\stm32flash-0.7-binaries;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\Smplab\Downloads\xpack-openocd-0.11.0-4\bin;C:\Users\Smplab\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\Smplab\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Smplab\AppData\Local\Programs\Python\Python310\;C:\Users\Smplab\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Smplab\AppData\Local\Programs\Python\Python39\;C:\Users\Smplab\AppData\Local\Microsoft\WindowsApps;C:\Users\Smplab\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Smplab\Downloads\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin;C:\MinGW\bin;X:\BMS\Thesis\programing\firmware\gcc-arm-none-eabi-10.3-2021.10\bin;X:\BMS\Thesis\programing\firmware\make-3.81-bin\bin;C:\Users\Smplab\Downloads\stm32flash-0.7-binaries\stm32flash-0.7-binaries;C:\Users\Smplab\AppData\Local\GitHubDesktop\bin;C:\Users\Smplab\Downloads\xpack-openocd-0.11.0-4\bin;C:\Users\Smplab\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Smplab\AppData\Roaming\npm;C:\Users\harish\OneDrive\Documents\PlatformIO\Projects\arduino_nuc_ina238\KalmanFilter\env\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Keysight\IO Libraries Suite\bin;C:\Program Files\IVI Foundation\VISA\Win64\ktvisa;C:\Program Files (x86)\Keysight\IO Libraries Suite\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\ktvisa;C:\Program Files (x86)\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files (x86)\IVI Foundation\VISA\winnt\agvisa;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\Microchip\xc8\v1.41\bin;C:\Program Files\Microchip\xc8\v2.36\bin;X:\BMS\Thesis\programing\firmware\gcc-arm-none-eabi-10.3-2021.10\bin;X:\BMS\Thesis\programing\firmware\make-3.81-bin\bin;C:\Users\Smplab\Downloads\stm32flash-0.7-binaries\stm32flash-0.7-binaries;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\Smplab\Downloads\xpack-openocd-0.11.0-4\bin;C:\Users\Smplab\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\Smplab\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Smplab\AppData\Local\Programs\Python\Python310\;C:\Users\Smplab\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Smplab\AppData\Local\Programs\Python\Python39\;C:\Users\Smplab\AppData\Local\Microsoft\WindowsApps;C:\Users\Smplab\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Smplab\Downloads\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin;C:\MinGW\bin;X:\BMS\Thesis\programing\firmware\gcc-arm-none-eabi-10.3-2021.10\bin;X:\BMS\Thesis\programing\firmware\make-3.81-bin\bin;C:\Users\Smplab\Downloads\stm32flash-0.7-binaries\stm32flash-0.7-binaries;C:\Users\Smplab\AppData\Local\GitHubDesktop\bin;C:\Users\Smplab\Downloads\xpack-openocd-0.11.0-4\bin;C:\Users\Smplab\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Smplab\AppData\Roaming\npm
 # default
 MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-PATH = C:\Users\harish\OneDrive\Documents\PlatformIO\Projects\arduino_nuc_ina238\KalmanFilter\env\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\MinGW\bin;C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files (x86)\Coreutils\bin\;C:\Program Files (x86)\nodejs\;C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\harish\AppData\Local\Programs\Python\Python310\;C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\bin;C:\Users\harish\AppData\Local\Microsoft\WindowsApps;C:\Users\harish\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\harish\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Coreutils\bin\;C:\Users\harish\AppData\Roaming\npm
+PATH = C:\Users\harish\OneDrive\Documents\PlatformIO\Projects\arduino_nuc_ina238\KalmanFilter\env\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Keysight\IO Libraries Suite\bin;C:\Program Files\IVI Foundation\VISA\Win64\ktvisa;C:\Program Files (x86)\Keysight\IO Libraries Suite\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\ktvisa;C:\Program Files (x86)\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files (x86)\IVI Foundation\VISA\winnt\agvisa;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\Microchip\xc8\v1.41\bin;C:\Program Files\Microchip\xc8\v2.36\bin;X:\BMS\Thesis\programing\firmware\gcc-arm-none-eabi-10.3-2021.10\bin;X:\BMS\Thesis\programing\firmware\make-3.81-bin\bin;C:\Users\Smplab\Downloads\stm32flash-0.7-binaries\stm32flash-0.7-binaries;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\Smplab\Downloads\xpack-openocd-0.11.0-4\bin;C:\Users\Smplab\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\Smplab\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Smplab\AppData\Local\Programs\Python\Python310\;C:\Users\Smplab\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Smplab\AppData\Local\Programs\Python\Python39\;C:\Users\Smplab\AppData\Local\Microsoft\WindowsApps;C:\Users\Smplab\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Smplab\Downloads\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin;C:\MinGW\bin;X:\BMS\Thesis\programing\firmware\gcc-arm-none-eabi-10.3-2021.10\bin;X:\BMS\Thesis\programing\firmware\make-3.81-bin\bin;C:\Users\Smplab\Downloads\stm32flash-0.7-binaries\stm32flash-0.7-binaries;C:\User 
+s\Smplab\AppData\Local\GitHubDesktop\bin;C:\Users\Smplab\Downloads\xpack-openocd-0.11.0-4\bin;C:\Users\Smplab\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Smplab\AppData\Roaming\npm
 # environment
-LOCAL_GIT_DIRECTORY = C:\Users\harish\AppData\Local\GitHubDesktop\app-3.0.0\resources\app\git
+IVIROOTDIR32 = C:\Program Files (x86)\IVI Foundation\IVI\
 # default
 MAKE_VERSION := 3.81
 # makefile
@@ -156,25 +169,28 @@ PROGRAMFILES(X86) = C:\Program Files (x86)
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-LOCALAPPDATA = C:\Users\harish\AppData\Local
+LOCALAPPDATA = C:\Users\Smplab\AppData\Local
 # environment
-PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSMODULEPATH 
+ = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := make.exe
 # environment
 PROCESSOR_ARCHITEW6432 = AMD64
 # default
 .VARIABLES := 
+# environment
+PROGRAMDATA = C:\ProgramData
 # automatic
 *F = $(notdir $*)
 # environment
-PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\3f74b0399fb666c5899a47567a8c3b6a-1.67.2-main-sock
+IVIROOTDIR64 = C:\Program Files\IVI Foundation\IVI\
 # environment
-HOMEPATH = \Users\harish
+HOMEPATH = \Users\Smplab
 # environment
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
@@ -184,29 +200,33 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-SYSTEMROOT = C:\Windows
+SYSTEMROOT = C:\WINDOWS
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
 +F = $(notdir $+)
 # environment
-APPDATA = C:\Users\harish\AppData\Roaming
+APPDATA = C:\Users\Smplab\AppData\Roaming
 # environment
 VXIPNPPATH = C:\Program Files (x86)\IVI Foundation\VISA\
 # environment
-TEMP = C:\Users\harish\AppData\Local\Temp
+TEMP = C:\Users\Smplab\AppData\Local\Temp
 # environment
-COMSPEC = C:\Windows\system32\cmd.exe
+COMSPEC = C:\WINDOWS\system32\cmd.exe
 # default
 MAKEFILES := 
 # environment
-_OLD_VIRTUAL_PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\MinGW\bin;C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files (x86)\Coreutils\bin\;C:\Program Files (x86)\nodejs\;C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\harish\AppData\Local\Programs\Python\Python310\;C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\bin;C:\Users\harish\AppData\Local\Microsoft\WindowsApps;C:\Users\harish\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\harish\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Coreutils\bin\;C:\Users\harish\AppData\Roaming\npm
+ARMGCC_DIR = C:\Users\Smplab\Downloads\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin
+# environment
+_OLD_VIRTUAL_PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Keysight\IO Libraries Suite\bin;C:\Program Files\IVI Foundation\VISA\Win64\ktvisa;C:\Program Files (x86)\Keysight\IO Libraries Suite\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\ktvisa;C:\Program Files (x86)\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files (x86)\IVI Foundation\VISA\winnt\agvisa;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\Microchip\xc8\v1.41\bin;C:\Program Files\Microchip\xc8\v2.36\bin;X:\BMS\Thesis\programing\firmware\gcc-arm-none-eabi-10.3-2021.10\bin;X:\BMS\Thesis\programing\firmware\make-3.81-bin\bin;C:\Users\Smplab\Downloads\stm32flash-0.7-binaries\stm32flash-0.7-binaries;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\Smplab\Downloads\xpack-openocd-0.11.0-4\bin;C:\Users\Smplab\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Users\Smplab\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Smplab\AppData\Local\Programs\Python\Python310\;C:\Users\Smplab\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Smplab\AppData\Local\Programs\Python\Python39\;C:\Users\Smplab\AppData\Local\Microsoft\WindowsApps;C:\Users\Smplab\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Smplab\Downloads\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin;C:\MinGW\bin;X:\BMS\Thesis\programing\firmware\gcc-arm-none-eabi-10.3-2021.10\bin;X:\BMS\Thesis\programing\firmware\make-3.81-bin\bin;C:\Users\Smplab\Downloads\stm32flash-0.7-binaries\stm32flash-0.7-binaries;C:\Users\Smplab\AppData\Local\GitHubDesktop\bin;C:\Users\Smplab\Downloads\xpack-openocd-0.11.0-4\bin;C:\Users\Smplab\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Smplab\AppData\Roaming\npm
 # automatic
 <F = $(notdir $<)
 # environment
 PLATFORMIO_CALLER = vscode
 # environment
 LC_ALL = C
+# environment
+CONFIGSETROOT = C:\WINDOWS\ConfigSetRoot
 # automatic
 ^F = $(notdir $^)
 # default
@@ -216,7 +236,7 @@ SYSTEMDRIVE = C:
 # environment
 SESSIONNAME = Console
 # environment
-PROCESSOR_REVISION = 8e09
+PROCESSOR_REVISION = 9e09
 # environment
 MAKELEVEL := 0
 # environment
@@ -224,13 +244,11 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 9316
+VSCODE_PID = 38872
 # environment
-AWRD_LICENSE_FILE = C:\Program Files (x86)\AWR\AWRDE\14\license.lic
-# environment
-USERDOMAIN_ROAMINGPROFILE = DESKTOP-AU97FCS
+USERDOMAIN_ROAMINGPROFILE = SMP-LAYOUT-01
 # variable set hash-table stats:
-# Load=107/1024=10%, Rehash=0, Collisions=13/123=11%
+# Load=113/1024=11%, Rehash=0, Collisions=17/130=13%
 
 # Pattern-specific Variable Values
 
@@ -238,23 +256,70 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-AU97FCS
 
 # Directories
 
-# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1647697466): 6 files, no impossibilities.
-# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1605758029): 30 files, no impossibilities.
-# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1652532416): 170 files, no impossibilities.
-# . (key c:/Users/harish/OneDrive/Documents/PlatformIO/Projects/arduino_nuc_ina238/KalmanFilter, mtime 1654546814): 6 files, no impossibilities.
-# C:\Program Files\IVI Foundation\VISA\Win64\Bin\ (key C:/Program Files/IVI Foundation/VISA/Win64/Bin/, mtime 1644676391): 9 files, no impossibilities.
-# C:\MinGW\bin (key C:/MinGW/bin, mtime 1648827044): 144 files, no impossibilities.
-# C:\Windows\System32\OpenSSH\: could not be stat'd.
-# C:\Windows (key C:/Windows, mtime 1653518873): 113 files, no impossibilities.
-# C:\Program Files (x86)\Coreutils\bin\ (key C:/Program Files (x86)/Coreutils/bin/, mtime 1651608635): 9 files, no impossibilities so far.
-# C:\Users\harish\OneDrive\Documents\PlatformIO\Projects\arduino_nuc_ina238\KalmanFilter\env\Scripts (key C:/Users/harish/OneDrive/Documents/PlatformIO/Projects/arduino_nuc_ina238/KalmanFilter/env/Scripts, mtime 1654546613): 12 files, no impossibilities.
-# C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts (key C:/Users/harish/AppData/Local/Programs/Python/Python310/Scripts, mtime 1654170267): 28 files, no impossibilities.
-# C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\ (key C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/, mtime 1644676391): 10 files, no impossibilities.
-# C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI (key C:/Program Files (x86)/National Instruments/Shared/LabVIEW CLI, mtime 1644676271): 6 files, no impossibilities.
-# C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin (key C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin, mtime 1644676391): 10 files, no impossibilities.
-# C:\Windows\system32 (key C:/Windows/system32, mtime 1654540604): 2918 files, no impossibilities.
+# C:\Program Files (x86)\IVI Foundation\IVI\bin (key C:/Program Files (x86)/IVI Foundation/IVI/bin, mtime 16317 
+87657): 33 files, no impossibilities.
+# C:\Users\Smplab\AppData\Local\Programs\Python\Python39\ (key C:/Users/Smplab/AppData/Local/Programs/Python/Python39/, mtime 1651074831): 4 files, no impossibilities.
+# C:\Users\Smplab\AppData\Local\GitHubDesktop\bin (key C:/Users/Smplab/AppData/Local/GitHubDesktop/bin, mtime 1649175319): 4 files, no impossibilities.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1648810043): 6 files, no impossibiliti 
+es.
+# C:\Users\Smplab\AppData\Local\Microsoft\WindowsApps (key C:/Users/Smplab/AppData/Local/Microsoft/WindowsApps, mtime 1653591803): 20 files, no impossibilities.
+# C:\Users\Smplab\AppData\Local\Programs\Python\Python39\Scripts\ (key C:/Users/Smplab/AppData/Local/Programs/Python/Python39/Scripts/, mtime 1651074770): 4 files, no impossibilities.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1602707176): 32 files, no impossibilities.
+# C:\Program Files 
+ (x86)\Microchip\xc8\v1.41\bin: could not be stat'd.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1652372883): 172 files, no impossibilities.
+# . (key c:/Users/Smplab/Documents/programing/stm32/stm32H7xx/nuc_sensor/kalanfilter/lookupdatable/KalmanFilter, mtime 1654589205): 13 files, no impossibilities.
+# C:\Program Files (x86)\IVI Foundation\VISA\WinNT\ktvisa (key C:/Program Files (x86)/IVI Foundation/VISA/WinNT/ktvisa, mtime 1598350040): 7 files, no impossibilities.
+# C:\Program Files (x 
+86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility (key C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility, mtime 1649165550): 12 files, no impossibilities.
+# C:\Users\Smplab\AppData\Local\Programs\Python\Python310\Scripts (key C:/Users/Smplab/AppData/Local/Programs/Python/Python310/Scripts, mtime 1654069831): 71 files, no impossibilities.
+# C:\Users\Smplab\Downloads\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin: could not be stat'd.
+# C 
+:\Program Files\TortoiseSVN\bin (key C:/Program Files/TortoiseSVN/bin, mtime 1580204071): 63 files, no impossibilities.
+# X:\BMS\Thesis\programing\firmware\gcc-arm-none-eabi-10.3-2021.10\bin (key X:/BMS/Thesis/programing/firmware/gcc-arm-none-eabi-10.3-2021.10/bin, mtime 1649059625): 35 files, no impossibilities.
+# C:\Program Files\IVI Foundation\VISA\Win64\Bin\ (key C:/Program Files/IVI Foundation/VISA/Win64/Bin/, mtime 1645610835): 11 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program F 
+iles/nodejs/, mtime 1653401760): 13 files, no impossibilities.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1648739270): 144 files, no impossibilities.
+# C:\Program Files\Intel\iCLS Client\ (key C:/Program Files/Intel/iCLS Client/, mtime 1540474273): 13 files, no impossibilities.
+# C:\Program Files\Keysight\IO Libraries Suite\bin (key C:/Program Files/Keysight/IO Libraries Suite/bin, mtime 1598350048): 43 files, no impossibilities.
+# C:\Users\Smplab\Downloads\stm32flash-0.7-binaries\stm32flash-0.7-binaries (key  
+C:/Users/Smplab/Downloads/stm32flash-0.7-binaries/stm32flash-0.7-binaries, mtime 1649152106): 7 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\IPT (key C:/Program Files/Intel/Intel(R) Management Engine Components/IPT, mtime 1540474250): 5 files, no impossibilities.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# C:\Program Files\IVI Foundation\VISA\Win64\ktvisa (key C:/Program Files/IVI Foundation/VISA/Win64/ktvisa, mtime 1598350047): 8 files, no impossibili 
+ties.
+# C:\Program Files\PuTTY\ (key C:/Program Files/PuTTY/, mtime 1651583553): 12 files, no impossibilities.
+# C:\Program Files (x86)\IVI Foundation\VISA\winnt\agvisa (key C:/Program Files (x86)/IVI Foundation/VISA/winnt/agvisa, mtime 1598350040): 6 files, no impossibilities.
+# C:\Program Files (x86)\Intel\iCLS Client\ (key C:/Program Files (x86)/Intel/iCLS Client/, mtime 1540474278): 8 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files/Inte 
+l/Intel(R) Management Engine Components/DAL, mtime 1540474250): 4 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1654377002): 139 files, no impossibilities.
+# C:\Program Files\Microchip\xc8\v2.36\bin: could not be stat'd.
+# C:\Program Files\IVI Foundation\IVI\bin (key C:/Program Files/IVI Foundation/IVI/bin, mtime 1631787656): 28 files, no impossibilities.
+# C:\Users\Smplab\AppData\Local\Programs\Python\Python310\ (key C:/Users/Smplab/AppData/Local/Programs/Python/Python310/, mtime 165107535 
+9): 24 files, no impossibilities.
+# C:\Program Files\Intel\WiFi\bin\ (key C:/Program Files/Intel/WiFi/bin/, mtime 1625763839): 3 files, no impossibilities.
+# X:\BMS\Thesis\programing\firmware\make-3.81-bin\bin (key X:/BMS/Thesis/programing/firmware/make-3.81-bin/bin, mtime 1649063000): 5 files, no impossibilities.
+# C:\Program Files\Common Files\Intel\WirelessCommon\ (key C:/Program Files/Common Files/Intel/WirelessCommon/, mtime 1560441669): 7 files, no impossibilities.
+# C:\Users\Smplab\AppData\Local\Prog 
+rams\Python\Python310\Scripts\ (key C:/Users/Smplab/AppData/Local/Programs/Python/Python310/Scripts/, mtime 1654069831): 71 files, no impossibilities.
+# C:\Users\harish\OneDrive\Documents\PlatformIO\Projects\arduino_nuc_ina238\KalmanFilter\env\Scripts: could not be stat'd.
+# C:\Users\Smplab\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Smplab/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1653399921): 4 files, no impossibilities.
+# C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\ (key 
+ C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/, mtime 1645610834): 12 files, no impossibilities.
+# C:\Users\Smplab\AppData\Roaming\npm (key C:/Users/Smplab/AppData/Roaming/npm, mtime 1653401752): 2 files, no impossibilities.
+# C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI (key C:/Program Files (x86)/National Instruments/Shared/LabVIEW CLI, mtime 1637670481): 6 files, no impossibilities.
+# C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin (key C:/Program Files (x86)/IVI Foundation 
+/VISA/WinNT/Bin, mtime 1645610834): 12 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1654377085): 3177 files, no impossibilities.
+# C:\Program Files (x86)\Keysight\IO Libraries Suite\bin (key C:/Program Files (x86)/Keysight/IO Libraries Suite/bin, mtime 1598350040): 28 files, no impossibilities.
+# C:\Users\Smplab\Downloads\xpack-openocd-0.11.0-4\bin: could not be stat'd.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT (key C:/Program Files (x86)/In 
+tel/Intel(R) Management Engine Components/IPT, mtime 1540474250): 6 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL, mtime 1540474250): 10 files, no impossibilities.
 
-# 3471 files, no impossibilities in 15 directories.
+# 4284 files, no impossibilities in 48 directories.
 
 # Implicit Rules
 
@@ -267,7 +332,8 @@ all:
 #  Command-line target.
 #  Implicit rule search has been done.
 #  File does not exist.
-#  File has not been updated.
+#  File 
+ has not been updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
@@ -287,7 +353,8 @@ makefile:
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
-# Not a target:
+# 
+ Not a target:
 .SUFFIXES:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -307,7 +374,8 @@ GNUmakefile:
 # Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
 # VPATH Search Paths
 
-# No `vpath' search paths.
+# No 
+ `vpath' search paths.
 
 # No general (`VPATH' variable) search path.
 
@@ -316,6 +384,8 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Mon Jun 06 22:20:18 2022
+# Finished Make data base on Tue Jun 07 10:09:01 2022
 
  
+make.exe: *** No rule to make target `all'.  Stop.
+

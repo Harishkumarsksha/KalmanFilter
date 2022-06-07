@@ -48,11 +48,11 @@ class BattCdf:
         self.interceptK=self.model.intercept_
         self.Cdf_coef=self.model.coef_
 
-        print(f'Model intercept : {self.interceptK} and  model Coeffient : {self.Cdf_coef}')
+        # print(f'Model intercept : {self.interceptK} and  model Coeffient : {self.Cdf_coef}')
     
     def modelPredict(self):
         self.Cdf_pred = self.model.predict(self.SOC_test)
-        print(f'model predicted output for {self.SOC_test[10]} : {self.model.predict(self.SOC_test[10].reshape(1,1))}')
+        # print(f'model predicted output for {self.SOC_test[10]} : {self.model.predict(self.SOC_test[10].reshape(1,1))}')
 
     def CdfFunc(self,SOC):
         return self.Cdf_coef * 99.09 + self.interceptK

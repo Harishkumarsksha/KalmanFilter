@@ -49,11 +49,11 @@ class KalmanGainInit:
         self.interceptK=self.model.intercept_
         self.Kalman_coef=self.model.coef_
 
-        print(f'Model Kalman intercept : {self.interceptK} and  model Kalman Gain init : {self.Kalman_coef}')
+        # print(f'Model Kalman intercept : {self.interceptK} and  model Kalman Gain init : {self.Kalman_coef}')
     
     def modelPredict(self):
         self.SOC_pred = self.model.predict(self.OCV_test)
-        print(f'model predicted output for {self.OCV_test[10]} : {self.model.predict(self.OCV_test[10].reshape(1,1))}')
+        # print(f'model predicted output for {self.OCV_test[10]} : {self.model.predict(self.OCV_test[10].reshape(1,1))}')
 
     def SOC_0(self,OCV):
         # print(f'model predicted output for {OCV} : {self.Kalman_coef * OCV + self.interceptK}')
