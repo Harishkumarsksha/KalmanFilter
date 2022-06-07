@@ -1,0 +1,321 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Mon Jun 06 22:20:18 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VIRTUAL_ENV_PROMPT = (env) 
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+PLATFORMIO_IDE = 2.4.3
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+SIGRITY_EDA_DIR = C:\Cadence\SPB_17.4
+# default
+SHELL := C:/Program Files (x86)/Coreutils/bin//sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\harish\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environment
+TMP = C:\Users\harish\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-afda7c11-2166-4baa-ac16-88706c29e293-sock
+# environment
+VSCODE_CWD = C:\Users\harish\OneDrive\Documents\PlatformIO\Projects\arduino_nuc_ina238\KalmanFilter
+# environment
+CDS_LIC_ONLY = 1
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# makefile
+CURDIR := c:/Use 
+make.exe: *** No rule to make target `all'.  Stop.
+
+rs/harish/OneDrive/Documents/PlatformIO/Projects/arduino_nuc_ina238/KalmanFilter
+# environment
+NIEXTCCOMPILERSUPP = C:\Program Files (x86)\National Instruments\Shared\ExternalCompilerSupport\C\
+# environment
+VIRTUAL_ENV = C:\Users\harish\OneDrive\Documents\PlatformIO\Projects\arduino_nuc_ina238\KalmanFilter\env
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VXIPNPPATH64 = C:\Program Files\IVI Foundation\VISA\
+# environment
+_OLD_VIRTUAL_PROMPT = $P$G
+# environment
+USERPROFILE = C:\Users\harish
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9316_ICIOOAXZTVUHLJFW
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-AU97FCS
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = harish
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = C:\SPB_Data
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\harish\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-AU97FCS
+# environment
+CDS_LIC_FILE = 5280@DESKTOP-AU97FCS;5280@localhost
+# environment
+ONEDRIVECONSUMER = C:\Users\harish\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-AU97FCS
+# environment
+PLATFORMIO_PATH = C:\Users\harish\.platformio\python3;C:\Users\harish\OneDrive\Documents\PlatformIO\Projects\arduino_nuc_ina238\KalmanFilter\env\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\MinGW\bin;C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files (x86)\Coreutils\bin\;C:\Program Files (x86)\nodejs\;C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\harish\AppData\Local\Programs\Python\Python310\;C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\bin;C:\Users\harish\AppData\Local\Microsoft\WindowsApps;C:\Users\harish\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\harish\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Coreutils\bin\;C:\Users\harish\AppData\Roaming\npm;C:\Users\harish\OneDrive\Documents\PlatformIO\Projects\arduino_nuc_ina238\KalmanFilter\env\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\MinGW\bin;C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files (x86)\Coreutils\bin\;C:\Program Files (x86)\nodejs\;C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\harish\AppData\Local\Programs\Python\Python310\;C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\bin;C:\Users\harish\AppData\Local\Microsoft\WindowsApps;C:\Users\harish\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\harish\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Coreutils\bin\;C:\Users\harish\AppData\Roaming\npm
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = C:\Users\harish\OneDrive\Documents\PlatformIO\Projects\arduino_nuc_ina238\KalmanFilter\env\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\MinGW\bin;C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files (x86)\Coreutils\bin\;C:\Program Files (x86)\nodejs\;C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\harish\AppData\Local\Programs\Python\Python310\;C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\bin;C:\Users\harish\AppData\Local\Microsoft\WindowsApps;C:\Users\harish\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\harish\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Coreutils\bin\;C:\Users\harish\AppData\Roaming\npm
+# environment
+LOCAL_GIT_DIRECTORY = C:\Users\harish\AppData\Local\GitHubDesktop\app-3.0.0\resources\app\git
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\harish\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\3f74b0399fb666c5899a47567a8c3b6a-1.67.2-main-sock
+# environment
+HOMEPATH = \Users\harish
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = (env) $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\harish\AppData\Roaming
+# environment
+VXIPNPPATH = C:\Program Files (x86)\IVI Foundation\VISA\
+# environment
+TEMP = C:\Users\harish\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# environment
+_OLD_VIRTUAL_PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\MinGW\bin;C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files (x86)\Coreutils\bin\;C:\Program Files (x86)\nodejs\;C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\harish\AppData\Local\Programs\Python\Python310\;C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\bin;C:\Users\harish\AppData\Local\Microsoft\WindowsApps;C:\Users\harish\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\harish\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Coreutils\bin\;C:\Users\harish\AppData\Roaming\npm
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8e09
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 9316
+# environment
+AWRD_LICENSE_FILE = C:\Program Files (x86)\AWR\AWRDE\14\license.lic
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-AU97FCS
+# variable set hash-table stats:
+# Load=107/1024=10%, Rehash=0, Collisions=13/123=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1647697466): 6 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1605758029): 30 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1652532416): 170 files, no impossibilities.
+# . (key c:/Users/harish/OneDrive/Documents/PlatformIO/Projects/arduino_nuc_ina238/KalmanFilter, mtime 1654546814): 6 files, no impossibilities.
+# C:\Program Files\IVI Foundation\VISA\Win64\Bin\ (key C:/Program Files/IVI Foundation/VISA/Win64/Bin/, mtime 1644676391): 9 files, no impossibilities.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1648827044): 144 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\Windows (key C:/Windows, mtime 1653518873): 113 files, no impossibilities.
+# C:\Program Files (x86)\Coreutils\bin\ (key C:/Program Files (x86)/Coreutils/bin/, mtime 1651608635): 9 files, no impossibilities so far.
+# C:\Users\harish\OneDrive\Documents\PlatformIO\Projects\arduino_nuc_ina238\KalmanFilter\env\Scripts (key C:/Users/harish/OneDrive/Documents/PlatformIO/Projects/arduino_nuc_ina238/KalmanFilter/env/Scripts, mtime 1654546613): 12 files, no impossibilities.
+# C:\Users\harish\AppData\Local\Programs\Python\Python310\Scripts (key C:/Users/harish/AppData/Local/Programs/Python/Python310/Scripts, mtime 1654170267): 28 files, no impossibilities.
+# C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\ (key C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/, mtime 1644676391): 10 files, no impossibilities.
+# C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI (key C:/Program Files (x86)/National Instruments/Shared/LabVIEW CLI, mtime 1644676271): 6 files, no impossibilities.
+# C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin (key C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin, mtime 1644676391): 10 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1654540604): 2918 files, no impossibilities.
+
+# 3471 files, no impossibilities in 15 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+
+# Finished Make data base on Mon Jun 06 22:20:18 2022
+
+ 
